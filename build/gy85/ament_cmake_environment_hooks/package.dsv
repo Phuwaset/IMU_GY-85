@@ -1,0 +1,4 @@
+source;share/gy85/local_setup.bash
+source;share/gy85/local_setup.dsv
+source;share/gy85/local_setup.sh
+source;share/gy85/local_setup.zsh

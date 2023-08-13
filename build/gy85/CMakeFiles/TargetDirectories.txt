@@ -1,0 +1,9 @@
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/install/strip.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/install/local.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/edit_cache.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/test.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/install.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/list_install_components.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/gy85_uninstall.dir
+/home/ubuntu/imugy85/build/gy85/CMakeFiles/uninstall.dir

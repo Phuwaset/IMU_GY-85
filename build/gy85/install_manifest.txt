@@ -1,0 +1,15 @@
+/home/ubuntu/imugy85/install/gy85/share/ament_index/resource_index/package_run_dependencies/gy85
+/home/ubuntu/imugy85/install/gy85/share/ament_index/resource_index/parent_prefix_path/gy85
+/home/ubuntu/imugy85/install/gy85/share/gy85/environment/ament_prefix_path.sh
+/home/ubuntu/imugy85/install/gy85/share/gy85/environment/ament_prefix_path.dsv
+/home/ubuntu/imugy85/install/gy85/share/gy85/environment/path.sh
+/home/ubuntu/imugy85/install/gy85/share/gy85/environment/path.dsv
+/home/ubuntu/imugy85/install/gy85/share/gy85/local_setup.bash
+/home/ubuntu/imugy85/install/gy85/share/gy85/local_setup.sh
+/home/ubuntu/imugy85/install/gy85/share/gy85/local_setup.zsh
+/home/ubuntu/imugy85/install/gy85/share/gy85/local_setup.dsv
+/home/ubuntu/imugy85/install/gy85/share/gy85/package.dsv
+/home/ubuntu/imugy85/install/gy85/share/ament_index/resource_index/packages/gy85
+/home/ubuntu/imugy85/install/gy85/share/gy85/cmake/gy85Config.cmake
+/home/ubuntu/imugy85/install/gy85/share/gy85/cmake/gy85Config-version.cmake
+/home/ubuntu/imugy85/install/gy85/share/gy85/package.xml
