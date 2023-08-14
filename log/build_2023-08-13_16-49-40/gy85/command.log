@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/imugy85/build/gy85': /usr/bin/cmake /home/ubuntu/imugy85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/imugy85/install/gy85
-Invoked command in '/home/ubuntu/imugy85/build/gy85' returned '1': /usr/bin/cmake /home/ubuntu/imugy85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/imugy85/install/gy85

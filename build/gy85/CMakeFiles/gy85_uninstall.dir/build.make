@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/imugy85/src/gy85
+CMAKE_SOURCE_DIR = /home/ubuntu/IMU_GY-85/src/gy85
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/imugy85/build/gy85
+CMAKE_BINARY_DIR = /home/ubuntu/IMU_GY-85/build/gy85
 
 # Utility rule file for gy85_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/imugy85/build/gy85
 include CMakeFiles/gy85_uninstall.dir/progress.make
 
 CMakeFiles/gy85_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/imugy85/build/gy85/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/IMU_GY-85/build/gy85/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gy85_uninstall: CMakeFiles/gy85_uninstall
 gy85_uninstall: CMakeFiles/gy85_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/gy85_uninstall.dir/clean:
 .PHONY : CMakeFiles/gy85_uninstall.dir/clean
 
 CMakeFiles/gy85_uninstall.dir/depend:
-	cd /home/ubuntu/imugy85/build/gy85 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/imugy85/src/gy85 /home/ubuntu/imugy85/src/gy85 /home/ubuntu/imugy85/build/gy85 /home/ubuntu/imugy85/build/gy85 /home/ubuntu/imugy85/build/gy85/CMakeFiles/gy85_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/IMU_GY-85/build/gy85 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/IMU_GY-85/src/gy85 /home/ubuntu/IMU_GY-85/src/gy85 /home/ubuntu/IMU_GY-85/build/gy85 /home/ubuntu/IMU_GY-85/build/gy85 /home/ubuntu/IMU_GY-85/build/gy85/CMakeFiles/gy85_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gy85_uninstall.dir/depend
 

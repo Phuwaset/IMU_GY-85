@@ -1,0 +1,37 @@
+[0.081s] Invoking command in '/home/ubuntu/IMU_GY-85/build/gy85': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85
+[0.386s] -- The C compiler identification is GNU 9.4.0
+[0.654s] -- The CXX compiler identification is GNU 9.4.0
+[0.677s] -- Check for working C compiler: /usr/bin/cc
+[1.044s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.049s] -- Detecting C compiler ABI info
+[1.414s] -- Detecting C compiler ABI info - done
+[1.456s] -- Detecting C compile features
+[1.458s] -- Detecting C compile features - done
+[1.467s] -- Check for working CXX compiler: /usr/bin/c++
+[1.871s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.877s] -- Detecting CXX compiler ABI info
+[2.285s] -- Detecting CXX compiler ABI info - done
+[2.330s] -- Detecting CXX compile features
+[2.333s] -- Detecting CXX compile features - done
+[2.369s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.544s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.544s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.187s] Traceback (most recent call last):
+[3.188s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[3.190s]     from ament_package.templates import get_environment_hook_template_path
+[3.191s] ModuleNotFoundError: No module named 'ament_package'
+[3.289s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[3.289s]   execute_process(/usr/bin/python3
+[3.290s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[3.290s]   /home/ubuntu/IMU_GY-85/build/gy85/ament_cmake_package_templates/templates.cmake)
+[3.290s]   returned error code 1
+[3.291s] Call Stack (most recent call first):
+[3.291s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.291s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.291s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.292s]   CMakeLists.txt:19 (find_package)
+[3.292s] 
+[3.292s] 
+[3.293s] -- Configuring incomplete, errors occurred!
+[3.294s] See also "/home/ubuntu/IMU_GY-85/build/gy85/CMakeFiles/CMakeOutput.log".
+[3.306s] Invoked command in '/home/ubuntu/IMU_GY-85/build/gy85' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85

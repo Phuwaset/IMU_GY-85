@@ -1,0 +1,47 @@
+# import sys
+# sys.path.insert(1,'/home/ubuntu/imugy85/src/gy85')
+# from i2c_adxl345 import *
+# from time import *
+
+# adxl345 = i2c_adxl345(1)
+
+# while True:
+#     print (adxl345)
+#     sleep (1)
+
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Imu
+from time import sleep
+import sys
+sys.path.insert(1,'/home/ubuntu/IMU_GY-85/src/gy85')
+from i2clibraries.i2c_adxl345 import i2c_adxl345
+
+class ADXLNode(Node):
+    def __init__(self):
+        super().__init__('adxl_node')
+        self.publisher_ = self.create_publisher(Imu, 'imu/data', 10)
+        self.timer = self.create_timer(1, self.publish_data)
+        self.adxl345 = i2c_adxl345(1)
+
+    def publish_data(self):
+        msg = Imu()
+        accel_data = self.adxl345.getAxes()  # แก้ไขตรงนี้ ไม่ต้องส่งอาร์กิวเมนต์เพิ่มเติม
+        
+        # Fill in the IMU message fields
+        msg.linear_acceleration.x = accel_data[0]  # แก้ไขตรงนี้
+        msg.linear_acceleration.y = accel_data[1]  # แก้ไขตรงนี้
+        msg.linear_acceleration.z = accel_data[2]  # แก้ไขตรงนี้
+
+        self.get_logger().info(f"Accelerometer data: {accel_data}")
+        self.publisher_.publish(msg)
+
+def main(args=None):
+    rclpy.init(args=args)
+    adxl_node = ADXLNode()
+    rclpy.spin(adxl_node)
+    adxl_node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

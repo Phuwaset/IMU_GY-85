@@ -4,10 +4,9 @@ from sensor_msgs.msg import Imu
 from time import sleep
 import sys
 
-# Import the accelerometer and gyro codes
-sys.path.insert(1, '/home/ubuntu/imugy85/src/gy85')
+sys.path.insert(1, '/home/ubuntu/IMU_GY-85/src/gy85')
 from i2clibraries.i2c_adxl345 import i2c_adxl345
-from i2c_itg3205 import i2c_itg3205
+from i2clibraries.i2c_itg3205 import i2c_itg3205
 
 class ImuNode(Node):
     def __init__(self):
@@ -15,7 +14,7 @@ class ImuNode(Node):
         self.publisher_ = self.create_publisher(Imu, 'imu/data', 10)
         self.timer = self.create_timer(1, self.publish_data)
         self.adxl345 = i2c_adxl345(1)
-        self.itg3205 = i2c_itg3205(1)
+        self.itg3205 = i2c_itg3205(1)  # สร้างอินสแตนซ์ของ i2c_itg3205
 
     def publish_data(self):
         msg = Imu()
