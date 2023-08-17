@@ -1,0 +1,35 @@
+[0.085s] Invoking command in '/home/ubuntu/IMU_GY-85/build/gy85': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85
+[0.163s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.262s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.587s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.611s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.615s] -- Added test 'lint_cmake' to check CMake code style
+[1.618s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.630s] -- Added test 'xmllint' to check XML markup files
+[1.641s] -- Configuring done
+[1.653s] -- Generating done
+[1.659s] -- Build files have been written to: /home/ubuntu/IMU_GY-85/build/gy85
+[1.668s] Invoked command in '/home/ubuntu/IMU_GY-85/build/gy85' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85
+[1.680s] Invoking command in '/home/ubuntu/IMU_GY-85/build/gy85': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IMU_GY-85/build/gy85 -- -j4 -l4
+[1.884s] Invoked command in '/home/ubuntu/IMU_GY-85/build/gy85' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IMU_GY-85/build/gy85 -- -j4 -l4
+[2.084s] Invoking command in '/home/ubuntu/IMU_GY-85/build/gy85': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IMU_GY-85/build/gy85
+[2.129s] -- Install configuration: ""
+[2.131s] -- Execute custom install script
+[2.133s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/ament_index/resource_index/package_run_dependencies/gy85
+[2.135s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/ament_index/resource_index/parent_prefix_path/gy85
+[2.136s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/environment/ament_prefix_path.sh
+[2.138s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/environment/ament_prefix_path.dsv
+[2.139s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/environment/path.sh
+[2.141s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/environment/path.dsv
+[2.142s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/local_setup.bash
+[2.143s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/local_setup.sh
+[2.145s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/local_setup.zsh
+[2.146s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/local_setup.dsv
+[2.147s] -- Symlinking: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/package.dsv
+[2.194s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/ament_index/resource_index/packages/gy85
+[2.195s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/cmake/gy85Config.cmake
+[2.196s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/cmake/gy85Config-version.cmake
+[2.198s] -- Up-to-date symlink: /home/ubuntu/IMU_GY-85/install/gy85/share/gy85/package.xml
+[2.205s] Invoked command in '/home/ubuntu/IMU_GY-85/build/gy85' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IMU_GY-85/build/gy85

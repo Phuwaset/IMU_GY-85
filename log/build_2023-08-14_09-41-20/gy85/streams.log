@@ -1,0 +1,34 @@
+[0.086s] Invoking command in '/home/ubuntu/IMU_GY-85/build/gy85': /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85
+[0.162s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.295s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.541s] Error parsing '/home/ubuntu/IMU_GY-85/src/gy85/package.xml':
+[2.066s] Traceback (most recent call last):
+[2.067s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[2.069s]     main()
+[2.070s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[2.071s]     raise e
+[2.072s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[2.073s]     package = parse_package_string(
+[2.075s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 719, in parse_package_string
+[2.076s]     export_node = _get_optional_node(root, 'export', filename)
+[2.077s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 807, in _get_optional_node
+[2.079s]     raise InvalidPackage('The manifest must not contain more than one "%s" tags' % tagname, filename)
+[2.080s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ubuntu/IMU_GY-85/src/gy85/package.xml':
+[2.081s] The manifest must not contain more than one "export" tags
+[2.182s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[2.182s]   execute_process(/usr/bin/python3
+[2.183s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.183s]   /home/ubuntu/IMU_GY-85/src/gy85/package.xml
+[2.183s]   /home/ubuntu/IMU_GY-85/build/gy85/ament_cmake_core/package.cmake) returned
+[2.184s]   error code 1
+[2.184s] Call Stack (most recent call first):
+[2.184s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.185s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.185s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[2.185s] 
+[2.186s] 
+[2.186s] -- Configuring incomplete, errors occurred!
+[2.187s] See also "/home/ubuntu/IMU_GY-85/build/gy85/CMakeFiles/CMakeOutput.log".
+[2.196s] Invoked command in '/home/ubuntu/IMU_GY-85/build/gy85' returned '1': /usr/bin/cmake /home/ubuntu/IMU_GY-85/src/gy85 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IMU_GY-85/install/gy85
